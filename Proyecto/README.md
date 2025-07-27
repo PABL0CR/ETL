@@ -80,3 +80,6 @@ A través de Power Query, se aplicaron transformaciones semánticas a las dimens
     * Furniture → Muebles
     * Office Supplies → Útiles de Oficina
     * Technology → Tecnología
+  
+    <img width="1430" height="801" alt="image" src="https://github.com/user-attachments/assets/3b424fdd-bc98-4ca5-a249-36de6236cf11" />
+
