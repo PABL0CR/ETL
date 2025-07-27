@@ -13,16 +13,14 @@ Este proyecto busca aplicar técnicas de análisis de datos para optimizar la re
 - Productos más vendidos por región o país.
 
 Este análisis permite responder preguntas como:
-- ¿Qué categorías de productos fueron las más vendidas en los últimos seis meses de 2014?
-- ¿Qué estados y regiones presentaron las menores ventas durante 2013 y 2014?
-- ¿Qué segmento de clientes generó mayor rentabilidad en el último año?
+- ¿Qué categorías de productos fueron las más vendidas?
+- ¿Qué estados y regiones presentaron las mayores ventas?
   
 ## Tecnologías
 
-## Pasos
-Claro, aquí tienes una versión mejorada, ordenada y con redacción clara y profesional para los **pasos del proyecto**, ideal para incluir en tu GitHub:
-
----
+- MySQL
+- Python
+- Power BI
 
 ## ✅ Pasos del Proyecto
 
