@@ -2,8 +2,9 @@
 
 ## Descripción
 
-Este proyecto 
+Este proyecto consiste en la construcción de un sistema de análisis de datos para una empresa minorista, con el objetivo de optimizar la rentabilidad y las estrategias comerciales. A partir de un conjunto de datos históricos de ventas, se desarrolla un Data Warehouse con modelo dimensional tipo estrella, que facilita el análisis eficiente y estructurado de la información.
 
+Incluye la limpieza y transformación de datos, el modelamiento de dimensiones y tabla de hechos, la carga automatizada en una base de datos MySQL y la generación de reportes analíticos para responder preguntas clave sobre comportamiento del cliente, desempeño de productos y rendimiento por regiones.
 ## Objetivos
 
 Este proyecto busca aplicar técnicas de análisis de datos para optimizar la rentabilidad y las estrategias de venta de una empresa minorista. A través del análisis histórico de ventas, se pretende identificar patrones clave como:
@@ -55,3 +56,12 @@ Claro, aquí tienes una versión mejorada, ordenada y con redacción clara y pro
    * La **tabla de hechos principal** `hechos_ventas` centraliza las métricas clave: monto de venta, utilidad, cantidad y descuento.
    * Se definieron claves foráneas entre la tabla de hechos y las dimensiones para mantener la integridad referencial.
    * Se siguió el orden correcto de carga: primero las dimensiones y luego la tabla de hechos.
+  
+5. Implementación en Python y SQL
+
+   * Se desarrollaron scripts en Python para procesar y transformar los datos originales, creando dimensiones y tabla de hechos para el Data Warehouse.
+   * Se aplicaron técnicas de limpieza, normalización y creación de IDs incrementales para las dimensiones.
+   * Se creó la base de datos ventasdb en MySQL y se definieron las tablas con claves primarias y foráneas.
+   * Se automatizó la carga de datos usando Python (SQLAlchemy y pandas), respetando la integridad referencial.
+  
+     
