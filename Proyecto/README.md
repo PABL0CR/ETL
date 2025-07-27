@@ -55,14 +55,14 @@ Este análisis permite responder preguntas como:
    * Se definieron claves foráneas entre la tabla de hechos y las dimensiones para mantener la integridad referencial.
    * Se siguió el orden correcto de carga: primero las dimensiones y luego la tabla de hechos.
   
-5. Implementación en Python y SQL
+5. **Implementación en Python y SQL**
 
    * Se desarrollaron scripts en Python para procesar y transformar los datos originales, creando dimensiones y tabla de hechos para el Data Warehouse.
    * Se aplicaron técnicas de limpieza, normalización y creación de IDs incrementales para las dimensiones.
    * Se creó la base de datos ventasdb en MySQL y se definieron las tablas con claves primarias y foráneas.
    * Se automatizó la carga de datos usando Python (SQLAlchemy y pandas), respetando la integridad referencial.
 
-6. Visualización y Transformación Semántica en Power BI
+6. **Visualización y Transformación Semántica en Power BI**
 Una vez cargados los datos en MySQL, se conectó la base de datos al entorno de Power BI utilizando MySQL Connector. Esto permitió importar directamente las tablas del Data Warehouse al modelo de datos de Power BI.
 A través de Power Query, se aplicaron transformaciones semánticas a las dimensiones para mejorar la comprensión del modelo por parte de usuarios hispanohablantes:
 
@@ -80,6 +80,8 @@ A través de Power Query, se aplicaron transformaciones semánticas a las dimens
     * Furniture → Muebles
     * Office Supplies → Útiles de Oficina
     * Technology → Tecnología
-  
+      
+7. **Resultados**
+
     <img width="1430" height="801" alt="image" src="https://github.com/user-attachments/assets/3b424fdd-bc98-4ca5-a249-36de6236cf11" />
 
