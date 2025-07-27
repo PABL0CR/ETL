@@ -69,16 +69,16 @@ Una vez cargados los datos en MySQL, se conectó la base de datos al entorno de 
 A través de Power Query, se aplicaron transformaciones semánticas a las dimensiones para mejorar la comprensión del modelo por parte de usuarios hispanohablantes:
 
 🔄 Traducción de Categorías
-* En la tabla dim_cliente, se tradujo el campo segmento:
-  * Consumer → Consumidor
-  * Corporate → Corporativo
-  * Home Office → Trabajo en Casa
-* En la tabla dim_region, se tradujo el campo region:
-  * South → Sur
-  * West → Oeste
-  * Central → Centro
-  * East → Este
-* En la tabla dim_producto, se tradujo el campo categoría:
-  * Furniture → Muebles
-  * Office Supplies → Útiles de Oficina
-  * Technology → Tecnología
+  * En la tabla `dim_cliente`, se tradujo el campo segmento:
+    * Consumer → Consumidor
+    * Corporate → Corporativo
+    * Home Office → Trabajo en Casa
+  * En la tabla `dim_region`, se tradujo el campo region:
+    * South → Sur
+    * West → Oeste
+    * Central → Centro
+    * East → Este
+  * En la tabla `dim_producto`, se tradujo el campo categoría:
+    * Furniture → Muebles
+    * Office Supplies → Útiles de Oficina
+    * Technology → Tecnología
